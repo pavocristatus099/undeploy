@@ -35,9 +35,10 @@ function getApplicationIDFromToken(token) {
 }
 
 /**
- * Undeploy application commands from a Discord bot.
+ * Delete all application commands from a Discord bot.
  * @param {string} token Authorization token used to interact with the Discord API.
- * @param {string} [guildID] The ID of the guild to undeploy commands from.
+ * @param {string} [guildID] The ID of the guild to delete commands from. Omit to delete commands globally.
+ * @returns {Response} The response from the Discord API.
  */
 export default async function undeploy(token, guildID) {
 	if (!token) throw "You need to specify a token to undeploy commands.";

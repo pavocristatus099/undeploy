@@ -1,16 +1,16 @@
 # Undeploy
 
-Quickly undeploy Discord application commands, from the CLI or in a Node.js program.
+Quickly delete all [slash commands](https://discord.com/developers/docs/interactions/application-commands#application-commands) from a Discord bot &mdash; in the command line, or in a Node program.
 
 ```bash
 npx undeploy [token] [guild ID]
 ```
 
-If `[token]` is omitted, the environmental variables `TOKEN`, `BOT_TOKEN`, and `DISCORD_API_TOKEN` will be used instead.
+If `[token]` is omitted, the environmental variable `TOKEN`, `BOT_TOKEN`, or `DISCORD_API_TOKEN` will be used instead.
 
-If `[guild id]` is omitted, application commands will be undeployed globally.
+If `[guild ID]` is omitted, application commands will be deleted globally.
 
-You can also import Undeploy in a Node.js program:
+You can also use Undeploy in a Node.js program:
 
 ```js
 const undeploy = require("undeploy"); // CommonJS

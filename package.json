@@ -2,10 +2,11 @@
 	"name": "undeploy",
 	"type": "module",
 	"version": "1.0.0",
-	"description": "Quickly undeploy Discord application commands.",
+	"description": "Quickly delete Discord slash commands.",
 	"main": "index.js",
 	"keywords": [
 		"discord",
+		"api",
 		"slash",
 		"commands",
 		"CLI"
