@@ -1,7 +1,7 @@
 {
 	"name": "undeploy",
 	"type": "module",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Quickly delete Discord slash commands.",
 	"main": "index.js",
 	"keywords": [
