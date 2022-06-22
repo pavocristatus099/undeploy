@@ -12,6 +12,9 @@
 		"CLI"
 	],
 	"author": "Nicholas Christopher <nchristopher@tuta.io> (https://nchristopher.me)",
+	"homepage": "https://github.com/nchristopher/undeploy#readme",
+	"bugs": "https://github.com/nchristopher/undeploy/issues",
+	"repository": "github:nchristopher/undeploy",
 	"license": "MIT",
 	"dependencies": {
 		"node-fetch": "^3.2.6"
