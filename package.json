@@ -4,6 +4,9 @@
 	"version": "1.0.2",
 	"description": "Quickly delete Discord slash commands.",
 	"main": "index.js",
+	"bin": {
+		"undeploy": "./index.js"
+	},
 	"keywords": [
 		"discord",
 		"api",
